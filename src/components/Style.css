@@ -1,0 +1,132 @@
+.Main-Contacts-details{
+    display: flex;
+   justify-content: space-between;
+   position: relative;
+   top: 60px;
+}
+
+.Contact-Box{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+ 
+}
+.Contact-Cross{
+    position: relative;
+    left: 700px;
+    cursor: pointer;
+    top: -30px;
+    font-family: Arial, Helvetica, sans-serif;
+        font-weight: 300;
+    font-size: 30px;
+    font-weight: 100;
+    text-decoration: none;
+
+    
+}
+
+.form-Content{
+    display: flex;
+    flex-direction: column;
+    width: 372px;
+   margin-left: 40%;
+   gap: 20px;
+}
+
+.form-Content > input {
+    height: 40px;
+    padding: 10px 25px;
+    border: 1px solid rgba(125,136,168,.3411764705882353);
+    border-radius: 6px;
+    opacity: 1;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 1rem;
+    line-height: inherit;
+}
+.form-Content  > textarea {
+    position: relative;
+    height: 80px;
+    padding: 10px 25px;
+    border: 1px solid rgba(125,136,168,.3411764705882353);
+    border-radius: 6px;
+    opacity: 1;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.form-Content input:focus, 
+.form-Content textarea:focus {
+    outline: 0;
+}
+
+.typewriter h1 {
+    overflow: hidden;
+    border-right: .15em solid orange; 
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation:  typing 3.5s steps(40, end),blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 75% }
+   
+  }
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+   .Contanct-content{
+     position: relative;
+    display: flex;
+    flex-direction: column;
+   left: 190px;
+   margin-bottom: 20px;
+   }
+   .Contanct-content > h1 {
+     position: relative;
+     /* left: 80px; */
+   }
+   .text-content{
+    line-height: 5px;
+    position: relative;
+    letter-spacing: .3px;
+    color: #7886a2;
+    opacity: 1;
+    font-size: 15px;
+    right: 20px;
+   }
+.Send-Button{
+    position: relative;
+  
+     color: #fff;
+    width: 371px;
+    font-size: 18px;
+    height: 56px;
+    background: #ff5161 0 0 no-repeat padding-box;
+    border-radius: 6px;
+    opacity: 1;
+    border: 1px solid rgba(125,136,168,.3411764705882353);
+
+}
+
+.Send-Button:hover{
+    background-color: #007bff;;
+    color: #fff;
+transition-property: all ease-in-out;
+cursor: pointer;
+}
+.contackimg{
+    width: 50%;
+    position: fixed;
+   left: 50%;
+   top: 0px;
+   height: 60em;
+}

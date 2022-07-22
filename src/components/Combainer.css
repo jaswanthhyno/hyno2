@@ -1,0 +1,367 @@
+/* body{
+    background: black;
+  } */
+  .fotterApp{
+    display: flex;
+    justify-content: center;
+   gap: 150px;
+width:"1262";
+height:"1446";
+    background:#000000;
+    padding: 20px;
+  }
+  .headding>h2{
+  
+    font: normal normal normal 48px/64px Gilroy-Bold;
+    letter-spacing: 0px;
+    opacity:1;
+    color: #ffff;
+  }
+  
+  .Details-Container{
+    margin-top: 50px;
+  }
+  
+  .headding > h5{
+    color: var(--unnamed-color-ffffff);
+  
+    font: normal normal normal 16px/24px Gilroy-Bold;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    font-size: 16px;
+    line-height: 25PX;
+
+  }
+  /* //   */
+  
+  .attchment{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .attchment > p {
+    font: normal normal normal 16px/24px Gilroy-Bold;
+  }
+  .contacts-Box> h3 {
+  color: var(--unnamed-color-ffffff);
+  text-align: left;
+  font: normal normal normal 32px/64px Gilroy-Bold;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  opacity: 1;
+  }
+  
+  .contacts-Box{
+    margin-left: 25px;
+    margin-top: 50px;
+    color: #fff;
+  }
+  .Contacts{
+    display: flex;
+    flex-direction: column;
+    margin-top: -30px;
+  }
+  .Input-Container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top: 99px;
+  
+  }
+  
+  
+  .Charminar-Details{
+  display: grid;
+  grid-template-columns: 15% 100%;
+  padding: 10px;
+  line-height: 10px;margin-top: 40px;
+
+  gap: 20px;
+  font-size: 14px;
+  }
+  .Container-text > p {
+  text-align: left;
+  font-size: 14px;
+  font: normal normal normal 16px/24px Gilroy-Bold;
+  letter-spacing: 0px;
+  color: #707070;
+  opacity: 1;
+  line-height: 30px;
+
+  }
+  
+  .FormDetails{
+    display: flex;
+    flex-direction: column;
+     width: 500px;
+     gap: 25px;
+  }
+  .FormDetails > input {
+    outline: 0px;
+    background-color: transparent;
+    padding: 10px;
+    color: #fff;
+    font: normal normal normal 16px/24px Gilroy-Bold;
+    font-size: 15px;
+  }
+  .Social{
+    margin-left: 25px;
+    font: normal normal normal 16px/24px Gilroy-Bold;
+    letter-spacing: 0px;
+  color: #707070;
+  letter-spacing: 0.5px;
+  }
+  .Social-network{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+  }
+  .Social-network :nth-child(n) {
+  color: #707070;
+  font-size: 18px;
+  }
+  span{
+    width: 6.86px;
+    height: 6.86px;
+   color: #FF004C ;
+    opacity: 1;
+  }
+  
+  .FormDetails>:nth-child(1){
+    padding: 10px 0px;
+      border: none;
+      border-bottom: 1px solid grey;
+  }
+  .FormDetails>:nth-child(2){
+    padding: 10px 0px;
+    border: none;
+    border-bottom: 1px solid grey;
+  }
+  
+  .FormDetails > :nth-child(3) {
+    height: 150px;
+    padding: 10px 0px;
+    margin-top: -50px;;
+    border: none;
+      border-bottom: 1px solid grey;
+  }
+  
+  .Border-Line{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  
+  .Border-Line :nth-child(1){
+  
+    font: normal normal medium 14px/24px Work Sans;
+    letter-spacing: 0px;
+    color: #FF004C;
+    opacity: 1;
+  }
+  .Btn{
+    width: 144px;
+    height: 56px;
+    background: #FF004C 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 10px #0000005A;
+    border-radius: 3px;
+    opacity: 1;
+        color: whitesmoke;
+        border: none;
+        font: normal normal normal 16px/24px Gilroy-Bold;
+        padding: 0px 15px;
+  }
+  @media (min-width: 800px) and (max-width: 1000px) { 
+    .headding>h2{
+      font-size: 32px;
+    }
+    .Charminar-Details{
+      display: flex;
+      gap: 20px;
+    }
+    .App{
+      gap: 10px;
+      margin-left: 100px;
+    }
+    .headding > h5{
+      line-height: 10px;
+      font-size: 16px;
+    }
+    .FormDetails{
+         width: 300px; 
+    }
+  .attchment > :nth-child(1){
+      font-size: 18px !important;
+  }
+  
+  .Btn{
+    margin-right: 80px;
+    background: #FF004C ;
+      width: 120px;
+      height: 40px;
+  }
+  .contacts-Box > h3 {
+    font-size: 28px;
+  }
+  
+  .Contacts{
+   
+    max-width: 350px;
+  
+  }
+  .Container-text>:nth-child(2){
+    line-height: normal;
+  }
+  .Social >h3{
+    font-size: medium;
+  }
+  
+   } 
+  
+   @media (min-width:600px) and (max-width:799px)  {
+    .App{
+   max-width: 500px;
+      display: flex !important;
+      flex-direction: column !important;
+      justify-content: center;
+    align-items: center;
+    gap: 0px;
+    margin-left: 80px !important;
+    padding: 20px 30px;
+    }
+  .headding >h2{
+      font-size: 35px;
+  }
+    .Details-Container{
+    margin-top: 10px;
+    margin-left: -80px;
+    }
+  
+    .contacts-Box  > h3{
+     font-size: 25px;
+    }
+    .Social-network{
+      display: flex;
+      gap: 30px !important;
+      font-size: 22px;
+    }
+   }
+  @media (min-width: 400px) and (max-width: 599px) {
+     
+    .App{
+      display: flex;
+      flex-direction: column !important;
+      max-width: 400px;
+      justify-content: center;
+      margin-left: 20px;
+      padding: 0px 0px  15px 20px ;
+      gap: 10px;
+       }
+  
+    .headding >h2{
+       font-size: 35px;
+       margin-left: 80px;
+    }
+       .Details-Container{
+     margin-top: 10px;
+     margin-left: -30px;
+        }
+  
+      .headding > h5{
+          line-height: 10px;
+          font-size: 16px;
+        }
+  
+        .FormDetails{
+             width: 350px; 
+        }
+        .Border-Line{
+          display: flex;
+          flex-direction: column;
+           gap: 20px;
+        }
+        .Btn{
+          max-width: 120px;
+          padding: 16px 10px;
+        
+        }
+  
+        .contacts-Box  > h3{
+          font-size: 25px;
+          margin-left: 80px;
+         }
+  
+         .Social-network :nth-child(n){
+          display: flex;
+         margin-left: 30px;
+           font-size: 25px  !important;
+        }
+  
+        .Social > h3 {
+          margin-left: 80px;
+        }
+  }
+  
+  @media (min-width:299px) and (max-width:399px) {
+      .App{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center;
+        margin-left: 20px;
+        padding: 0px 0px  15px 20px ;
+        width: 300px;
+        gap: 10px;
+         }
+      .Details-Container{
+        display: none;
+      }
+      .FormDetails{
+        width: 300px;
+      }
+      .Border-Line{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-left: 40px;
+      }
+      .Btn{
+        max-width: 120px;
+        padding: 16px 10px;
+      }
+   .headding > h2 {
+    font-size: 33px;
+    margin-left: 40px;
+   }
+   .headding > h5 {
+    font-size: 15px;
+    margin-top: -20px !important;
+   }
+  .Input-Container{
+    margin-top: 0px;
+  }
+  
+  }
+
+  .ISO-Images{
+ 
+    display: flex;
+   gap: 20px;
+
+  
+  }
+
+  .ISO-Images> img{
+    width: 80px;
+    height: 80px;
+  }
+
+  .Layer-img{
+    position: absolute;
+    z-index: 1px;
+    background-color: #000000;
+    opacity: 0.5;
+    bottom: 100px;
+    left: 160px;
+  }
