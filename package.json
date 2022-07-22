@@ -19,7 +19,7 @@
     "next-fonts": "0.17.0",
     "react": "^18.2.0",
     "react-background-video-player": "^1.1.8",
-    "reacnpmt-dom": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.4.0",
     "react-multi-carousel": "^2.8.2",
     "react-router-dom": "^6.3.0",
